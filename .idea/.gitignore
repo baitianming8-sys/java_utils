@@ -1,8 +1,98 @@
-# Default ignored files
+## Default ignored files
+#/shelf/
+#/workspace.xml
+## Editor-based HTTP Client requests
+#/httpRequests/
+## Datasource local storage ignored files
+#/dataSources/
+#/dataSources.local.xml
+
 /shelf/
 /workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+# =========================
+# Gradle
+# =========================
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# 忽略本地 Gradle 配置
+gradle-app.setting
+
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# 但保留一些可选共享配置（可选）
+#.idea/codeStyles/
+#.idea/inspectionProfiles/
+
+# =========================
+# Java
+# =========================
+*.class
+*.log
+*.ctxt
+*.jar
+*.war
+*.nar
+*.ear
+hs_err_pid*
+replay_pid*
+
+# =========================
+# OS 文件
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# 临时文件
+# =========================
+tmp/
+temp/
+*.tmp
+*.swp
+
+# =========================
+# 环境变量 / 本地配置
+# =========================
+.env
+.env.*
+application-local.yml
+application-local.properties
+
+# =========================
+# 编译输出
+# =========================
+out/
+target/
+
+# =========================
+# VS Code（如果有人用）
+# =========================
+.vscode/
+
+# =========================
+# Mac/Linux
+# =========================
+*.pid
+*.seed
+*.pid.lock
+
+# =========================
+# 测试输出
+# =========================
+test-output/
+coverage/
